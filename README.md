@@ -8,3 +8,9 @@ Currently the following books have been added to this repository
 2. Basic Concepts of Quantum Mechanics by L. V. Tarasov
 
 Both the books use the latex-tufte book class for compilation with a few additional packages. See the packages used in the preamble of the files for the exact packages required.
+
+For other books and information about the project please go to our site:
+
+http://mirtitles.org
+
+Mirtitles Team
