@@ -1,6 +1,6 @@
-# tarasov # mir books
+# tarasov
 A repo for books by L. V. Tarasov
-This repo will have scanned pdf files and latex source files and supporting image files for compiling books by L. V. Tarasov.
+This repo will have scanned pdf files and latex source files and supporting image files for compiling books by L. V. Tarasov published by Mir Publishers.
 
 Currently the following books have been added to this repository
 
