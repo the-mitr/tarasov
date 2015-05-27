@@ -1,0 +1,85 @@
+%!tikz editor 1.0
+\documentclass{article}
+\usepackage{tikz}
+\usepackage[graphics, active, tightpage]{preview}
+\PreviewEnvironment{tikzpicture}
+
+%!tikz preamble begin
+\usetikzlibrary{arrows} 
+
+%!tikz preamble end
+
+
+\begin{document}
+%!tikz source begin
+\begin{tikzpicture}[>=triangle 45,scale=2]
+	
+	\draw[gray,step=0.2] (-3,-1) grid (5, 3);
+	\clip (-3,-0.2) rectangle (5, 2.1);
+		
+	%\draw[thick,red] plot (\x,\x*\x)	;
+	%\draw[thick,cyan] plot (\x,\x*\x*\x);
+	
+	\node[below right,red] at (-2,1.8 ) 
+	{\emph{Isobar}};
+	\node[below right,cyan] at (.5,1.8 ) 
+	{\emph{Isochore}};
+	\node[below right,violet] at (2.9,1.8 ) 
+	{\emph{Isotherm}};
+	
+	\node[below right,cyan,rotate=90] at (-1,.4 ) 
+	{\emph{Isochore}};
+	\node[below right,violet,rotate=90] at (1.5,.3 ) 
+	{\emph{Isotherm}};
+	\node[below right,red,rotate=90] at (4,.4 ) 
+	{\emph{Isobar}};
+
+	\node[below right,violet,] at (-2,.5 ) 
+	{\emph{Isotherm}};
+	\node[below right,red,rotate=35] at (0.4,.55 ) 
+	{\emph{Isobar}};
+	\node[below right,cyan,rotate=35] at (3,.6 ) 
+	{\emph{Isochore}};
+	
+
+	
+	%\node[below,cyan] at (1,1.9) {$\sim R^{3}$};
+		
+	\draw[thick, ->, gray] (0,0) -- (2,0);
+	\draw[thick, ->, gray] (0,0) -- (0,2);
+
+	\node [left,gray] at (-2.5,2) {$P$};
+	\node [left,gray] at (0,2) {$V$};
+	\node [left,gray] at (2.5,2) {$T$};
+	
+	\node [below left, gray] at (2.1,0) {$T$};
+	\node [below left, gray] at (4.6,0) {$P$};
+	\node [below left, gray] at (-.4,0) {$V$};
+	
+	\node [below left,gray] at (0,0) {0};
+	\node [below left,gray] at (2.5,0) {0};
+	\node [below left,gray] at (-2.5,0) {0};
+	
+	\draw[thick, violet] (-2.45,1.8) .. controls (-2.45,0) and (-1.6,.05) .. (-.7,.05);
+	\draw[thick, cyan] (2.5,0) -- (4.3,1.2);
+	\draw[thick, red] (0,0) -- (1.8,1.2);
+
+
+	
+	\draw[thick, ->, gray] (2.5,0) -- (4.5,0);
+	\draw[thick, ->, gray] (2.5,0) -- (2.5,2);
+	
+	\draw[thick, ->, gray] (-2.5,0) -- (-.5,0);
+	\draw[thick, ->, gray] (-2.5,0) -- (-2.5,2);
+	
+	\draw[thick, red] (-2.5,1.5) -- (-.7,1.5);
+	\draw[thick, cyan] (0,1.5) -- (1.8,1.5);
+	\draw[thick, violet] (2.5,1.5) -- (4.3,1.5);
+	
+	\draw[thick, cyan] (-1,0) -- (-1,1.8);
+	\draw[thick, violet] (1.5,0) -- (1.5,1.8);
+	\draw[thick, red] (4,0) -- (4,1.8);
+\end{tikzpicture}
+%!tikz source end
+
+\end{document}

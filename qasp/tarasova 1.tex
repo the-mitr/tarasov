@@ -1,0 +1,705 @@
+%\def\DevnagVersion{2.14}
+\documentclass[a4paper,12pt]{book}
+%\textwidth = 440 pt \textheight = 700 pt \hoffset = -25pt
+%\marginparwidth = 50 pt \voffset = -50pt \topmargin = 10pt
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{gensymb}
+%{\renewcommand{\labelitemi}{$\diamondsuit$}
+\usepackage{euler}
+\usepackage{latexsym}
+%\usepackage{graphicx}
+%\usepackage{dev}
+\usepackage[light]{anttor}
+%\usepackage{antpolt}
+%\renewcommand*\encodingdefault{OT4}
+
+%\usepackage{subfigure}
+
+{\renewcommand{\labelitemi}{$\blacktriangleright$}
+\usepackage{graphicx}
+\usepackage{slantsc}
+
+
+
+\title{Questions and Problems in School Physics}
+
+
+
+\date{}
+\author{L. Tarasova A. Tarasova \\
+\LaTeX ed by Damitr}
+
+ 
+
+
+
+\begin{document}
+
+\maketitle
+
+
+
+
+
+\chapter{Electric Currents}
+\paragraph{\it Electric currents have become an integral part of our everyday life, and so there is no need to point out the importance of the Ohm and the Joule-Lenz laws. But how well do youknow these laws? }
+\newpage
+\section{Do you know Ohm's Law?}
+
+{\sc Teacher:} Do you know Ohm's law?
+
+{\sc Student A:} Yes, of course. I think everybody knows Ohm's law. This is probably the simplest question in the entire physics course.
+
+{\sc Teacher:} We shall see. A Portion of electric circuit is shown in Fig. {\ref{fig104a}}. Here$E$ is the electromotive force (emf) and it is directed to the right; $R_{1}$ and $R_{2}$ are resistors; $r$ is the internal resistance of the seat of the electromotive force; and $\phi_{A}$ and $\phi_{B}$ are the potentials at the ends of the given portion of the circuit. The current flows from left to right. Find the value $I$ of this current. 
+
+{\sc Student A:} But you have an open circuit!
+
+{\sc Teacher:} I proposed that you consider a portion of some large circuit. You know nothing about the rest of the circuit. Nor do you need to, since the potentials at the end of this portion are given.
+
+{\sc Student A:} Previously we only dealt with closed electric circuits. For them the Ohm's law can be written in the form:
+\begin{equation}
+I = \frac{E}{R + r} \label{164}
+\end{equation}
+
+
+{\sc Teacher:} You are mistaken. You also considered elements of the circuit. According to Ohm's law, the current in an element of a circuit is equal to the ratio of the voltage and the resistance.
+
+{\sc Student A:} But is this a circuit element?
+
+{\sc Teacher:} Certainly. One such element is illustrated in Fig {\ref{fig104b}}. For this element you can write Ohm's in the form
+\begin{equation}
+I = \frac{\phi_{A} - \phi_{B}}{R} \label{165}
+\end{equation}
+Instead of potential difference $(\phi_{A} - \phi_{B})$ between the ends of the element, you previously employed the simpler term ``voltage'', denoting it by the letter $V$.
+
+{\sc Student A:} In any case, we did not deal with an element of circuit of the form shown in Fig. (\ref{fig104a}).
+
+{\sc Teacher:} Thus, we find that you know Ohm's law for the special cases of a closed circuit and for the simplest kind of element which includes no emf. You do not, however, know Ohm's law for the general case. Let us look into this together.
+
+Figure (\ref{fig105a}) shows the change in potential along a given portion in the circuit. The current flows form left to right and therefore the potential drops from $A$ to $C$. The drop in potential across the resistor $R_{1}$ is equal to $IR_{1}$. Further, we assume that the plates of a galvanic cell are located at $C$ and $D$. At these points upwards potential jumps occur, the sum of the jumps is the emf equal to $E$. Between $C$ and $D$ the potential drops across the internal resistance of the cell; the drop on potential across the resistor $R_{2}$ equals $IR_{2}$. The sum of the drops across all the resistances of the portion minus the upward potential jump is equal to $V$. It is the potential difference between the ends of the portion being considered. Thus
+\begin{equation*}
+I(R_{1}+R_{2}+r) - E=  \phi_{A} - \phi_{B} 
+\end{equation*}
+From this we obtain the expression for the current, i.e. Ohm's law for the given portion of the circuit 
+\begin{equation}
+I = \frac{E + (\phi_{A} - \phi_{B})}{R_{1}+R_{2}+r} \label{166a}
+\end{equation}
+
+Note that from this last equation we can readily obtain the special cases familiar to you. For the simplest element containing no emf we substitute $E=0$ and $r=0$ into equation (\ref{166a}). Then 
+\begin{equation*}
+I = \frac{(R_{1}+R_{2}+r)}{R_{1}+R_{2}}
+\end{equation*}
+which corresponds to equation (\ref{165}). To obtain a closed circuit, we must connect the ends $A$ and $B$ of our portion. This means that  $\phi_{A} = \phi_{B}$. Then 
+\begin{equation*}
+I = \frac{E}{(R_{1}+R_{2}+r)}
+\end{equation*}
+This corresponds to equation (\ref{164}).
+
+{\sc Student A:} I see now that I really didn't know Ohm's law. 
+
+{\sc Teacher:} To be more exact, you knew it for special cases only. Assume that a voltmeter is connected to the terminals of the cell in the portion of circuit shown in Fig. (\ref{fig104a}). Assume also that the voltmeter has sufficiently high resistance so that we can disregard the distortions due to its introduction into the circuit. What will the voltmeter indicate?
+
+{\sc Student A:} I know that a voltmeter connected to the terminals of a cell should indicate the voltage drop across the external circuit. In the given case, however we know nothing about the external circuit.
+
+{\sc Teacher:} A knowledge of external circuit is not necessary for our purpose. If the voltmeter is connected to points $C$ and $D$, it will indicate the difference in potential between these points. You understand this, don't you?
+
+{\sc Student A:} Yes, of course.
+
+{\sc Teacher:} Now look at Fig. (\ref{105a}). It is evident that the difference in potential between points $C$ and $D$ equals $(E = Ir)$. Denoting the voltmeter reading by $V$, we obtain the formula 
+\begin{equation}
+V = E - Ir \label{167}
+\end{equation}
+
+I would advise you to use this very formula since it requires no knowledge of any external resistances. This is specially valuable in cases when you deal with a more or less complicated circuit. Note that equation (\ref{167}) lies at the basis of a well known rule: If the circuit is broken and no current flows $I = 0$, then $V =E$. Here the voltmeter reading coincides with the value of the emf. 
+
+Do you understand all this?
+
+{\sc Student A:} Yes, now it is clear to me?
+
+{\sc Teacher:}  As a check I shall ask you a question which examinees quite frequently find it difficult to answer. \emph{ A closed circuit consists of $n$ cells connected in series. Each element has an emf $E$ and internal resistance $r$. The resistance of the connecting wires is assumed to be zero. What will be the reading in the voltmeter connected to the terminals of one of the cells. As usual it is assumed that no current passes through the voltmeter.}
+
+{\sc Student A:} I shall reason as in the preceding explanation. The voltmeter reading will be $V = E -Ir$. From Ohm's law for the given circuit we can find the current $I = (nE)/(nr) = E/r$. Substituting this in the first equation we obtain $V = E - (E/r)r = 0$. Thus, in this case the voltmeter will read zero.
+
+{\sc Teacher:} Absolutely correct. Only please remember that this case was idealized. On one hand, we neglected the resistance of the connecting wires, and on the other we assumed the resistance of the voltmeter to be infinitely large, so don't try to check this result by experiment.
+
+Now let us consider a case when the current in a portion of  a circuit flows in one direction and the emf acts in the opposite direction. This is illustrated in Fig. (\ref{104c}). Draw a diagram showing the change of potential along this portion.
+
+{\sc Student A:} Is it possible for the current to flow against the emf?
+
+{\sc Teacher:} You forget that we have here only the portion of a circuit. The circuit may contain other emf's outside the portion being considered, under whose effect the current in this portion may flow against the given emf.
+
+{\sc Student A:} I see. Since the current flows from the left to right, there is a potential drop equal to $IR_{1}$ from $A$ to $C$. Since the emf is now in the opposite direction, the potential jumps at the points $C$ and $D$ should now reduce the potential instead of increasing it. From point $C$ to point $D$ the potential should drop by the amount $Ir$, and from point $D$ to point $B$, by $IR_{2}$. As a result we obtain the diagram of Fig. (\ref{105b}).
+
+{\sc Teacher:} And what form will Ohm's law take in this case?
+
+{\sc Student A:} It will be of the form
+\begin{equation}
+I = \frac{ (\phi_{A} - \phi_{B}) - E}{R_{1}+R_{2}+r} \label{168}
+\end{equation}
+
+
+{\sc Teacher:} Correct. And what will voltmeter indicate now?
+
+{\sc Student A:} It can be seen from Fig. (\ref{105b}) that in this case
+\begin{equation}
+V = E + Ir
+\end{equation}
+
+{\sc Teacher:} Exactly. Now consider the following problem. \emph{ In the electrical circuit illustrated in Fig. (\ref{fig106})}, $r=1 \Omega$, $R = 10 \Omega$ and the resistance of the voltmeter $R_{v} = 200 \Omega$. Compute the relative error of the voltmeter reading obtained assuming that the voltmeter has infinitely high resistance and consequently causes no distortion in the circuit.
+
+We shall denote the reading of the real voltmeter by $V$ and that of the voltmeter with infinite resistance by $V_{\infty}$. Then the relative error would be
+\begin{equation}
+f  = \frac{V_{\infty} - V}{V_{\infty}} = 1 - \frac{V}{V_{\infty}} \label{170}
+\end{equation}
+Further, we shall take into consideration that
+\begin{equation}
+V_{\infty} = \frac{E}{R+r} \,R \label{171}
+\end{equation}
+and 
+\begin{equation}
+V = \frac{E}{r + \frac{RR_{V}}{R + R_{V}}}\frac{RR_{V}}{R+R_{V}} \label{172}
+\end{equation}
+
+After substituting equations (\ref{171}) and \ref{172} into (\ref{170}) we obtian:
+
+\begin{equation*}
+f = 1 - \frac{R_{V} (R + r)}{(R + R_{V})r + RR_{V}}  = 1 - \frac{R_{V} (R + r)}{(r+R)R_{V} + rR} = 1 - \frac{1}{1+ \frac{rR}{(r+R)R_{V}}} 
+\end{equation*}
+Since $R_{V}\gg R$ and $R> r$, the fraction in the denominator of the last equation is much less than unity. Therefore, we can make use of an approximation formula which is always useful tot bear in mind
+\begin{equation}
+(1+\lambda)^{\alpha} \cong 1 + \alpha \lambda \label{173}
+\end{equation}
+This formula holds true at $\lambda \ll 1$ for any value of $\alpha$ (whole or fractional, positive or negative). Employing approximation formula (\ref{173}) with $\alpha = -1$ and $\lambda = rR (r+R)^{-1}R_{V}^{-1}$, we obtain
+\begin{equation}
+f = \cong \frac{rR}{(r+R)R_{V}}
+\end{equation}
+
+Substituting the given numerical values into equation (\ref{174})m, we find that the error is $f \cong1/220 = 0.0045$.
+
+{\sc Student A:} Does this mean that higher resistance of the voltmeter in comparison with the external resistance, the lower the relative error, and that the more reason we have to neglect the distortion of the circuit when the voltmeter is connected into it?
+
+{\sc Teacher:} Yes, that's so. Only keep in mind that  $R_{V} \gg R$ is a sufficient, but not necessary condition for the smallness of the error $f$. It is evident from equation (\ref{174}) that error $f$ is small when the condition  $R_{V}\gg r$ is complied with, i.e. the resistance of the voltmeter is much higher than the internal resistance of the current source. The external resistance in this case maybe be infinitely high. 
+
+Try to solve the following problem: \emph{In the electrical circuit shown in Fig. (\ref{fig107a}), $E= 6 V, \, r =2/3 \Omega, \, R = 2 \Omega$. Compute the voltmeter reading. } 
+
+{\sc Student A:} Can we assume that the resistance of the voltmeter is infinitely high?
+
+{\sc Teacher:} Yes, and the more so because this resistance is not specified in the problem.
+
+{\sc Student A:} But then, will the current flow through the resistors in the middle of the circuit? It will probably flow directly along the elements $A_{1}A_{2}$ and $B_{1}B_{2}$.
+
+{\sc Teacher:} You are mistaken. Before dealing with the currents, I would advise you simplify the diagram somewhat. Since the elements $A_{1}A_{2}$ and $B_{1}B_{2}$ have no resistance, it follows that $\phi_{A1} = \phi_{A2}$ and $\phi_{B1} = \phi_{B2}$. Next, we can make use of the rule: if in a circuit any two points have the same potential, without changing the currents through the resistors. Let us apply this rule to our case by making point $A_{1}$ coincide with point $A_{2}$, point $B_{1}$ with $B_{2}$. We then obtain the diagram shown in Fig. (\ref{107b}). This one is quite easy to handle. Therefore, I will give you the final answer directly: the voltmeter reading will be $4 \,V$. I shall leave the necessary calculations to you as a home assignment.
+
+\section{Can a capacitor connected into a direct current circuit?}
+
+{\sc Teacher:} Let us consider the following problem. \emph{In the circuit shown in Fig. (\ref{fig110}) $C$ is the capacitance of the capacitor. Find the charge $Q$ on the capacitor plates if the emf of the current source is $E$ and its internal resistance is $r$.}
+
+{\sc Student A:}But can we use capacitor in a direct current circuit? Anyway, no current will flow through it.
+
+{\sc Teacher:} What if it doesn't? But it will flow in the parallel branches.
+
+{\sc Student A:} I think I understand now. Since the current doesn't flow through the capacitor in the circuit of Fig. (\ref{fig110}) , it will not flow through resistor $R_{1}$ either. In the external part of the circuit the current will only flow through resistor $R_{2}$. We can find the current through it by using the relation $I = E / (R_{2} + r)$ and then the potential difference between points $A$ and $B$ will equal the drop in voltage across the resistor $R_{2}$ i.e. 
+ \begin{equation}
+ \phi_{A} - \phi_{B} = IR_{2} = \frac{ER_{2}}{R_{2}+ r}
+\end{equation}
+I don't know what to do next. To find the charge on the capacitor plates, I must find the potential difference between points $A$ and $F$.
+
+{\sc Teacher:} You were correct in concluding that no current flows through resistor $R_{1}$. In such a case, however all points of the resistor should have the same potential (remember discussion in \#24). That means that $\phi_{A} = \phi_{B}$. From this, making use of equation (\ref{175}); we find the required charge
+\begin{equation}
+Q = \frac{C E R_{2}}{R_{2}+ r}
+\end{equation}
+
+Now consider the following problem. \emph{In the electric circuit shown in Fig. (\ref{fig111}), $E = 4 \,V, \,r =1 \, \Omega, \, R_{1} = 3 \Omega,\, R_{2} = 2 \Omega,\, C_{1} = 2 \mu F, \, C_{2} = 8 \mu F,\, C_{3} = 4 \mu F,\, C_{4} = 6 \mu F,\,$. Find the charge on the plates of the capacitor.}
+
+In this connection recall the rules of adding capacitors connected in series and parallel.
+
+{\sc Student A:} I remember those rules. When capacitors are connected in parallel, their combined capacitance is simply the sum of individual capacitances, i.e. 
+\begin{equation}
+C = C_{1} + C_{2} +C_{3} +C_{4} +\ldots \label{177}
+\end{equation}
+
+ and when they are connected in series, the combined capacitance is given by the reciprocal of the sum of the reciprocals of individual capacitances. Thus
+ \begin{equation}
+\frac{1}{C} = \frac{1}{C_{1}}+ \frac{1}{C_{2}}+ \frac{1}{C_{3}} \ldots \label{178}
+\end{equation}
+
+{\sc Teacher:} Exactly. Now making use of rule (\ref{177}), we find the capacitance between points $A$ and $B$, and points $F$ and $D$ as well:
+\begin{eqnarray*}
+C_{AB} = 2 \mu F + 8 \mu F = 10 \mu F \\
+C_{FD} = 4 \mu F + 6 \mu F = 10 \mu F \\
+\end{eqnarray*}
+The difference in the potential between points $A$ and $D$ is equal to the voltage drop across resistor $R_{1}$. Thus 
+\begin{equation*}
+\phi_{D} - \phi_{A} = IR_{1} = \frac{ER_{1}}{R_{1} + r} = 3 V
+\end{equation*}
+Obviously, resistor $R_{2}$ plays no part in the circuit and can be ignored. 
+Since $C_{AB} = C{FD}$, then
+\begin{equation*}
+\phi_{B} - \phi_{A} = \phi_{D} - \phi_{F} = \frac{3}{2} V = 1.5 V
+\end{equation*}
+Finally we can obtain the required charges:
+\begin{eqnarray*}
+Q_{1} = C_{1}(\phi_{B} - \phi_{A}) = 3 \mu C \\
+Q_{2} = C_{2}(\phi_{B} - \phi_{A}) = 12 \mu C \\
+Q_{3} = C_{3}(\phi_{D} - \phi_{F}) = 6 \mu C \\
+Q_{4} = C_{4}(\phi_{D} - \phi_{F}) = 9 \mu C \\
+\end{eqnarray*}
+
+\section{Can you compute the resistance of a branched portion of a circuit?}
+{\sc Teacher:} \emph{Compute the resistance of the portion of the circuit shown in Fig (\ref{117a}). You can neglect the resistance of wires (leads).}
+
+{\sc Student A:} If the resistance of the wires can be neglected, then the leads can be completely disregarded. The required resistance equals $3R$.
+
+{\sc Teacher:} You answered without thinking. To neglect the resistance of the wire and to neglect the leads are two entirely different things (though many examinees suppose them to be the same). To throw a lead out of the circuit means to replace it with an infinitely high resistance. Here on the contrary the resistance of the leads equals zero.
+
+{\sc Student A:} Yes, of course, I simply didn't give it any thought. But now I shall reason in the following manner. At point $A$ the current will be divided into two currents whose directions I have shown in Fig (\ref{fig117b}) by arrows. Here the middle resistor can be completely disregarded and the total resistance is $R/2$.
+
+{\sc Teacher:} Wrong again! I advise you to use the following rule: find the points in the circuit with the same potential and then change the diagram so that those points coincide with one another. The currents in the various branches of the circuit will remain unchanged, but the diagram maybe substantially simplified. I have already spoken about this in section 27??. Since in the given problem the resistances of the leads equal zero, points $A$ and $A_1$ have the same potential. Similarly points $B$ and $B_1$ have the same potential. In accordance with the rule I mentioned, we shall change the diagram so that points with the same potential will finally coincide with one another. For this purpose, we shall gradually shorten the lengths of the leads. The consecutive stages of this operation are illustrated in Fig. (\ref{fig117c}). As a result we find that the given connection corresponds to an arrangement with three resistors connected in parallel. Hence, the total resistance of the portion is $R/3$. 
+
+{\sc Student A:} Yes, indeed. It is quite evident from Fig. (\ref{fig117c}) that the resistors are connected in parallel.
+{\sc Teacher:} Let us consider the following example. {\it We have a cube made up of leads, each having resistance $R$ Fig. (\ref{fig118a}). The cube is connected into a circuit as shown in the diagram. Compute the total resistance of the cube.
+
+We can start by applying the rule I mentioned above. Indicate the points having the same potential.
+  
+{\sc Student A:} 
+{\sc Teacher:}
+{\sc Student A:} 
+{\sc Teacher:}
+{\sc Student A:} 
+{\sc Teacher:}
+{\sc Student A:} 
+{\sc Teacher:}
+{\sc Student A:} 
+{\sc Teacher:}
+{\sc Student A:} 
+{\sc Teacher:}
+{\sc Student A:} 
+
+
+
+\chapter{Geometrical Optics}
+\paragraph{\it The laws of geometrical optics have been known to mankind for many centuries. Nevertheless, their elegance and completeness still astonish us. Find this out for yourself by doing exercises on the construction of images formed in various optical systems. We shall discuss the laws of reflection and refraction of light.}
+
+\section{Do you know how light beams are reflected and refracted?}
+
+{\sc Teacher:} Please state the laws of reflection and refraction of light.
+
+{\sc Student A:} The law of reflection is: the angle of incidence is equal to the angle of reflection. The law of refraction: the ratio of the sine of the angle of incidence to the sine of the angle of refraction is equal to the refraction index for the medium.
+
+{\sc Teacher:} You statements are quite inaccurate. In the first place you made no mention of the fact that the incident and reflected (or refracted) rays lie in the same plane with a normal to the boundary of reflection (or refraction) erected at the point of incidence. If this is not specified, we could assume that reflection takes place as illustrated in Fig. (\ref{fig128}). Secondly, your statement of the law of refraction refers to special case of the incidence of a ray from the air to boundary of a certain medium. Assume that in the general case the ray falls from a medium with an index refraction $n_{1}$ on the boundary of a medium with an index of refraction $n_{2}$. We denote the angle of incidence by $\alpha_{1}$ and the angle of refraction by $\alpha_{2}$. In this case, the law of refraction can be written as
+\begin{equation}
+\frac{\sin \alpha_{1}}{\sin \alpha_{2}} = \frac{n_{2}}{n_{1}}
+\end{equation}
+This leads to your statement provided that for air $n_{1}  = 1$.
+
+Consider the following problem. \emph{A coin lies in water at a depth H. We will look at it form above along a vertical. At what depth we will see the coin?}
+
+{\sc Student A:} I know that coin will seem to be raised somewhat. I don't think I can give a more definite answer. 
+
+{\sc Teacher:} Let us draw two rays from the centre of the coin: $OA$ and $OB_{1}B$ (Fig. \ref{fig129}). Ray $OA$ is not refracted (because it is vertical) and ray $OB_{1}B$ is. Assume that these two diverging rays enter the eye. The eye will see an image of the coin at the point of intersection of the diverging rays $OA$ and $B_{1}B$ i.e. at point $O_{1}$. It is evident from the diagram that the required distance $h$ is related to the depth $H$ by the relation
+\begin{equation*}
+h \tan \alpha_{1} = H \tan \alpha_{2} \label{190}
+\end{equation*}
+ from which we get
+ \begin{equation}
+h =H \, \frac{\tan \alpha_{2}}{\tan \alpha_{1}}
+\end{equation}
+ Owing to the smallness of angles $\alpha_{1}$ and $\alpha_{2}$ we can apply the approximation formula
+ \begin{equation}
+\tan \alpha \approx \sin \alpha \approx \alpha \label{191}
+\end{equation}
+(in which the angle is expressed in radians and not in degrees). Using formula (\ref{191}), we can rewrite equation (\ref{190}) in the form:
+\begin{equation}
+h \approx H \, \frac{\sin \alpha_{2}}{\alpha_{1}} = \frac{H}{n}
+\end{equation}
+Since for water $n = 4/3$, we have
+\begin{equation*}
+h = \frac{3}{4}H
+\end{equation*}
+
+
+
+{\sc Student B:} What will happen if we look at the coin, not vertically, but from one side?
+{\sc Teacher:} In this case, the coin will seem, not only raised, but moved away (see the dashed lines in Fig. \ref{fig129}). Obviously the computations will be much more complicated in this case. Consider the following problem. \emph{A diver of height $h$ stands on the bottom of a lake of depth $H$. Compute the minimum distance from the point where the diver stands to the points of the bottom that he can see reflected from the surface of water}.
+
+{\sc Student A:} I know how to solve such problems. Let us denote the required distance by $L$. The path of the ray from point $A$ to the diver's eye is shown in Fig. (\ref{fig130}). Point $A$ is the closest point to the diver that he can see reflected form the surface of the lake. Thus, for instance, a ray from a closed point $B$ is refracted along the surface and does not return to the diver (see the dashed line in Fig. (\ref{fig130})). Angle $\alpha $ is the critical angle for total internal reflection. It is found from the formula 
+\begin{equation}
+\sin \alpha = \frac{1}{n} \label{193}
+\end{equation}
+ It is evident from the diagram that 
+ \begin{equation*}
+L = h \tan \alpha + 2 (H - h) \tan \alpha = (2H -h) \tan \alpha
+ \end{equation*}
+ 
+ Since $\tan \alpha = \frac{\sin \alpha}{ \sqrt{1 - \sin^{2} \alpha}}$ then using equation (\ref{193}) we obtain
+ \begin{equation}
+L = \frac{2H - h}{\sqrt{n^{2}-1}}
+\end{equation}
+After substituting $n=4/3$, we find that
+\begin{equation*}
+L = \frac{3}{\sqrt{7}}(2H -h)
+\end{equation*}
+
+{\sc Teacher:} Absolutely correct. And what kind of picture will the diver see overhead?
+
+{\sc Student A:} Directly overhead he will see a luminous circle of a radius 
+\begin{equation*}
+l = \frac{(H-h)}{\sqrt{n^{2}-1}} = \frac{3}{\sqrt{7}} (H-h)
+\end{equation*}
+see Fig. (\ref{fig130}). Beyond the limits of this circle he will see images of the objects lying at the bottom of the lake.
+
+{\sc Student B:} What will happen if the part of the lake bottom where the diver is standing is not horizontal, but inclined?
+
+{\sc Teacher:} In this case the distance $L$ will evidently depend on the direction in which the diver is looking. You can readily see that this distance will be minimal when the diver is looking upward along the inclined surface, and maximal when he looks in the opposite direction. The result obtained in the preceding problem will now be applicable only when the diver looks in a direction along which depth of the lake doesn't change (parallel to the shore). A problem with inclined lake bottom will be given as a homework (see Problem 74).
+
+{\sc Student A:} Can we change the direction of a beam by inserting a system of plane-parallel transparent plates in its path?
+
+{\sc Teacher:} What do you think?
+
+{\sc Student A:} In principle, I think we can. We know that beam, upon being refracted, travels in a different direction inside a plate. 
+
+{\sc Student B:} I don't agree. After emerging form the plate the beam will still be parallel to its initial direction.
+
+{\sc Teacher:} Just prove this, please using a system of several plates having different indices of refraction.
+
+{\sc Student B:} I shall take three plates with indices of refraction $n_{1}$, $n_{2}$ and $n_{3}$. The path of the beam through the system is shown in Fig. (\ref{fig131}). For refraction of the beam at each of the boundaries, we can write
+\begin{eqnarray*}
+\frac{\sin \alpha_{0}}{\sin \alpha_{1}} = n_{}1; \quad \quad \frac{\sin \alpha_{1}}{\sin \alpha_{2}} = \frac{n_{2}}{n_{1}}; \\
+\frac{\sin \alpha_{2}}{\sin \alpha_{3}} = \frac{n_{3}}{n_{2}}; \quad \quad \frac{\sin \alpha_{3}}{\sin \alpha_{4}} = \frac{n_{1}}{n_{3}};
+\end{eqnarray*}
+Multiplying together the left-handsides and right-hand sides of these equations, respectively, we obtain $\sin \alpha_{0} / \sin \alpha_{4} =1 $. Thus $\alpha_{0} = \alpha_{4}$, which is what we started to prove.
+
+{\sc Teacher:} Absolutely correct. Now, let us discuss the limits of applicability of the laws of geometrical optics.
+
+{\sc Student B:} These laws are not applicable for distances of the order of the wavelength of the light involved and shorter distances. At such short distances the wave properties of light begin to appear.
+
+{\sc Teacher:} You are right. This is something that examinees usually seem to understand sufficiently well. Can you tell me about any restrictions on the applicability of the laws of geometrical optics from the other side - from the side of large distances?
+
+{\sc Student B:} If the distances are longer than the wavelength of light, then light can be considered within scope of geometrical optics. At least that is what we were told before. I think there are no restrictions on the use of geometrical optics for large distances.
+
+{\sc Teacher:} You are mistaken. Just imagine the following picture: you are sending a beam of light into space, completely excluding the possibility of its scattering. Assume that in one second you turn the apparatus sending the beam of light through an angle of $60^{o}$. The question is: during this turning motion what will be velocity of the beam at distances of over 300,000 kilometers from the apparatus?
+
+{\sc Student B:} I understand your question. Such points must travel at velocity greater than that of light. However, according to the theory of relativity, velocities greater than the velocity of light are impossible only if they are velocities of material bodies. Here we are dealing with a beam.
+
+{\sc Teacher:} Well, isn't a light beam material? As you can see, geometrical optics is inconsistent for excessively great distances. Here we must take into consideration that a light beam is a stream of particles of light called as photons. The photons which were emitted from the apparatus before we turned it ``have no idea'' about the subsequent turning motion and continue to travel in the direction they were emitted. New photons are emitted in the new direction. Thus we do not observe turning of the light beam as a whole. 
+
+{\sc Student B:} How can we quantitatively evaluate the limit of applicability of the laws of geometrical optics from the side of large distances?
+
+{\sc Teacher:} The distances should be such that the time required for light to cover them must be much less than any characteristic time in the given problem (for example, much less than the time required for turning the apparatus emitting the light beam). In this case, the beam as a whole is not destroyed, and we can safely use the laws of geometrical optics.
+
+
+
+\section{How do you construct images formed by mirrors and lenses?}
+{\sc Teacher:} Quite often we find that examinees are incapable of constructing images formed by various optical systems, such as lenses and plane and spherical mirrors. Let us consider some typical examples. \emph{Construct the image of a man formed in the plane mirror show in Fig. \ref{fig132a}}
+\begin{figure}[htbp]
+\begin{center}
+\includegraphics[scale=0.8]{tarasova132a.eps}
+\caption{}
+\label{fig132a}
+\end{center}
+\end{figure}
+
+{\sc Student A:} It seems to me that no image will be formed by the mirror in this case because the mirror is located too high above the man.
+
+{\sc Teacher:} You are mistaken. There will be an image in the mirror. Its construction is given in Fig. \ref{fig132b}. It is quite evident that to construct the image it is sufficient to prolong the line representing the surface of the mirror  and to draw an image symmetrical to the figure of man with respect to this line (surface of the mirror). 
+\begin{figure}[!htbp]
+\begin{center}
+\includegraphics[scale=0.8]{tarasova132b.eps}
+\caption{}
+\label{fig132b}
+\end{center}
+\end{figure}
+
+{\sc Student A:} Yes, I understand, but will the man see his image.
+
+{\sc Teacher:} That is another question. As a matter of fact, the man will not see his image, because the mirror is located too high above him and is inconveniently inclined. The image of the man will be visible in the given mirror only to an observer located within the angle formed by rays $AA_{1}$ and $BB_{1}$. It is appropriate to recall that the observer's eye receives a beam of diverging rays from the object being observed. The eye will see an image of the object at the point of intersection of these rays or of their extensions. (see Figs. \ref{fig129} and \ref{132b}).
+
+\emph{Consider the construction of the image formed by a system of two plane mirrors arranged perpendicular to each other (Fig. \ref{fig133a})}.
+
+{\sc Student A:} We simply represent the reflection of the object in the two planes of the mirrors. Thus we obtain two images as shown in Fig. (\ref{fig133b}).
+
+{\sc Teacher:} You have lost the third image. Note that the rays from the object that are within the right angle $AOB$ (Fig. \ref{fig133c}) are reflected twice: first from one mirror and then from the other. The paths of these two rays are illustrated in Fig. (\ref{fig133c}). The intersection of the extensions of these rays determines the third image of the object.
+
+Next, we shall consider a number of examples involving a converging lens. Construct the image formed by such a lens in the case illustrated in Fig. (\ref{fig134a}).
+
+ {\sc Student A:} Thats very simple. My construction is shown in Fig. (\ref{fig134b}).
+
+{\sc Teacher:} Good. Now assume that one half of the lens is closed by an opaque screen as shown in Fig. (\ref{fig134c}). What will happen to the image?
+
+{\sc Student A:} In this case, the image will disappear.
+
+{\sc Teacher:} You are mistaken. You forget that the images of any point of the arrow (for example, its head) is obtained as a result of the intersection of an infinitely large number of rays (Fig. \ref{fig134d}). We usually restrict ourselves to two rays because the paths of two rays are sufficient to find the position and size of the image by construction. In the given case the screen shuts off part of the rays falling on the lens. The other part of the rays, however, pass through the lens and form an image of the object (Fig. \ref{fig134e}).  Sinc fewer rays participate in forming the image, it will not be so bright as before.
+
+{\sc Student B:} From your explanation it follows that when we close part of the lens with an opaque screen, only the brightness of the image is changed and nothing else. However, anybody who has anything to do with photography knows that when you reduce the aperture opening of the camera by irising, i.e. you reduce the effective area of the lens, another effect is observed along with the reduction in the brightness of the image: the image becomes sharper, or more clear-cut. Why does this happen?
+
+{\sc Teacher:} This is a very appropriate question. It enables me to emphasize the following: all our constructions are based on the assumption that we can neglect defects in the optical system (a lens in our case). True, the word ``defects'' is hardly suitable here since it does not concern any accidental shortcomings of the lens, but its basic properties. It is known that if two rays, parallel to and differently spaced from principal optical axis, pass through a lens, they will, after refraction in the lens, intersect the principal optical axis strictly speaking, at different points (Fig. \ref{fig135a}). This means that the focal point of the lens (the point of intersection of all rays parallel to the principal optical axis), or its focus, will be blurred; a sharply defined image of the object cannot be formed. The greater the differences in the distances of the various rays from the principal axis,  the more blurred the image will be. When the aperture opening is reduced by irising, the lens passes a narrow bundle of rays. This improves the sharpness to some extent. (Fig. \ref{fig135b}).
+
+{\sc Student B:} Thus, by using the diaphragm we make the image more sharply defined at the expense of brightness.
+
+{\sc Teacher:} Exactly. Remember, however, that in constructing the image formed by lenses, examinees have every reason to assume that parallel rays will always intersect at a single point. This point lies on the principal optical axis if the bundle of parallel rays is directed along this axis; the point lies on the focal plane if the bundle of parallel rays is directed at some angle to the principal optical axis. It is important however, for the examinees to understand this treatment is only approximate and that a more accurate approach would require corrections for the defects of the optical systems.
+
+{\sc Student A:} What is the focal plane of a lens?
+
+{\sc Teacher:} It is a plane through the principal focus of the lens perpendicular to the principal optical axis. Now, what is the difference between images formed by a plane mirror and by a converging lens in the example of Fig. (\ref{fig134})?
+
+{\sc Student A:} In the first case (with the mirror) the image is virtual, and in the second it is real.
+
+{\sc Teacher:} Correct. Please explain the differences between the virtual and real images in more detail.
+
+{\sc Student B:} A virtual image is formed by intersection, not of the rays themselves, but of their extensions. No wonder then that a virtual image can be seen somewhere behind a wall, where the rays cannot penetrate.
+
+{\sc Teacher:} Quite right. Note also that a virtual image can be observed only form definite positions. In case of a real image you can place a screen where the image is located and observe the image from any position. Consider the example illustrated in Fig. (\ref{136a}). \emph{Determine, by construction, the direction of ray $AA_{1}$ after it passes through a converging lens if the path of another ray }($BB_{1}B_{2}$ in Fig. (\ref{136a}) \emph{through this lens is known.}
+
+{\sc Student A:} But we don't know the focal length of the lens. 
+
+{\sc Teacher:} Well, we do know the path of the other ray before and after the lens.
+
+{\sc Student A:} We didn't study such constructions at school.
+
+{\sc Student B:} I think that we should first find the focal length of the lens. For this purpose we can draw a vertical arrow somewhere to the left of the lens so that its head touches ray $BB_{1}$. We shall denote the point of the arrowhead by the letter $C$ (Fig. \ref{fig136b}). Then we pass a ray from point $C$ through the center of the lens. This ray will go through the lens without being refracted and, at a certain point E, will intersect ray $B_{1}B_{2}$. Point $E$ is evidently the image of the point of the arrowhead. It remains to draw a third ray form the arrowhead $C$ parallel to the principal optical axis of the lens. Upon being refracted, this last ray will pass through the image of the arrowhead, i.e. through point $E$. The point of intersection of this third ray with the principal axis is the required focus of the lens. This construction is given in Fig. \ref{fig136b}. 
+
+The focal length being known, we can now construct the path of ray $AA_{1}$ after it is refracted by the lens. This is done by drawing another vertical arrow with the point of its head lying on the ray $AA_{1}$ (Fig. \ref{fig136c}). Making use of the determined focal length, we can construct the image of the second arrow. The required ray will pass through point $A_{1}$ and the head of the image of the arrow. This construction is shown in Fig. \ref{fig136c}.
+
+{\sc Teacher:} Your arguments are quite correct. They are based on finding image of a certain auxiliary object (the arrow). Note that this method is convenient when you are asked to determine the position of the image of a luminous point lying on the principal axis of the lens. In this case it is convenient to erect an arrow at the luminous point and construct the image of the arrow. It is clear that the tail of the image of the arrow is the required image of the luminous point.
+
+This method, however, is too cumbersome for our  example. I shall demonstrate a simpler construction. To find the focal length of the lens, we can draw ray $EO$ through the centre of the lens and parallel to the ray $BB_{1}$ (Fig. \ref{fig136d}). Since these two rays are parallel, they intersect in the focal plane behind the lens (the cross section of the focal plane is shown in Fig. \ref{136d} by a dashed line). Then we draw ray $CO$ through the centre of the lens and parallel to ray $AA_{1}$. Since these two parallel rays should also intersect in the focal plane after passing through the lens, we can determine the direction of the ray $AA_{1}$ through the lens, we can determine the direction of ray $AA_{1}$ after passing through the lens. As you can see, the construction is much simpler. 
+
+{\sc Student B:} Yes, your method is appreciable simpler. 
+
+ {\sc Teacher:} Try to apply this method to a similar problem in which a diverging lens is used instead of converging one (Fig. \ref{fig137a}).
+
+{\sc Student B:} First I will draw a ray through the centre of lens parallel to ray $BB_{1}$. In contrast to the preceding problem, the extension of the rays and not the rays themselves, will intersect (we may note for a ray passing through the centre, the extension will coincide with the ray itself). As a result, the focal plane, containing the point of intersection, will now be to the left of the lens instead of the right (see the dashed line in Fig. \ref{fig137b}).
+
+{\sc Teacher}(intervening) : Note that the image is always virtual in diverging lenses.
+
+{\sc Student B}(continuing) : Next I shall pass a ray through the centre of the lens and parallel to ray $AA_{1}$. Proceeding from the condition that the extensions of these rays intersect in the focal plane, I can draw the required ray.  
+
+ {\sc Teacher:} Good. Now tell me, where is the image of an object a part of which is in front of the focus of a converging lens, and the other part behind the focus (the object is of finite width)?
+
+{\sc Student B:} I shall construct the images of several points of the object located at various distances from the lens. The points located beyond the focus will provide a real image (it will be to the right of the lens), while the points in front of the focus will yield a virtual image (it will be to the left of the lens). As the chosen points approach the focus, the images will move away to infinity (either to the left or to the right of the lens).
+
+{\sc Teacher:} Excellent. Thus, in our case the image of the object is made up of two pieces (to the left and right of the lens). Each piece begins at a certain finite distance from the lens and extends to infinity. As you see, the question ``Can an object have a real and virtual image simultaneously?'' should be answered in affirmative. 
+
+I see that you understand the procedure for constructing the images formed by the lens. Therefore, we can go over to a more complicated item, the construction of an image formed by the system of two lenses. Consider the following problem: \emph{we have two converging lenses with a common principal optical axis and different focal lengths. Construct the image of a vertical arrow formed by such an optical system }(Fig. \ref{fig138a}). \emph{The focuses of one lens are shown on the diagram by $\times$'s and those of the other,  by blacked in circles.}
+
+{\sc Student B:} To construct the image of the arrow formed by two lenses, we must first construct the image formed by the first lens. In doing this we can disregard the second lens. Then we treat this image as if it were an object and, disregarding the first lens, construct its image formed by the second lens.
+
+{\sc Teacher:} Here you are making a very typical error. I have heard such an answer many times. It is quite wrong.
+
+Let us consider two rays originating at the point of arrowhead, and follow out their paths through the given system of lenses (Fig. \ref{fig138b}). The paths of the rays after they pass through the first lens are easily traced. To find their paths after the second lens, we shall draw auxiliary rays parallel to our rays and passing through the centre of the second lens. In this case, we make use of principle discussed in the preceding problems (parallel rays passing through a lens should intersect in the focal plane). The required image of the point of the arrow head will be at the point of intersection of the two initial rays after they leave the second lens. This construction is shown in detail in Fig. \ref{fig138b}. Now, let us see the result we would have obtained if we would have accepted your proposal. The construction is carried out in Fig. \ref{fig138c}. Solid lines show the construction of the image formed by the first lens; dashed lines show the subsequent construction of the image formed by the second lens. You can see that the result would have been entirely different (and quite incorrect!). 
+
+{\sc Student B:} But I am sure we once constructed an image exactly as I indicated.
+
+{\sc Teacher:} You may have done so. The fact is that in certain cases your  method of construction may turn out to be valid because it leads to results which coincide with those obtained by my method. This can be demonstrated on the preceding example by moving the arrow closer to the first lens i.e. between the focus and the lens. Figure \ref{139a} shows the construction according to my method, and Fig. \ref{139b}, according to yours. As you see, in the given case the results coincide.
+
+{\sc Student B:} But how can I determine beforehand in what cases my method of constructing the image can be used?
+
+{\sc Teacher:} It would not be difficult to specify the conditions for the applicability of your method for two lenses. These conditions become much more complicated for a greater number of lenses. There is no need to discuss them at all. Use my method and you won't get into any trouble. But I wish to ask one more question: can a double concave lens be a converging one?
+
+{\sc Student B:} Under ordinary conditions a double-concave lens is a diverging one. However, it will become a converging lens if it is placed in a medium with a higher index of refraction than that of the lens material. Under the same conditions, a double-convex lens will be a diverging one.
+
+
+
+
+\section{How well do you solve problems involving lenses and mirrors?}
+{\sc Teacher:} I would like make some generalizing remarks which may prove extremely useful in solving problems involving lenses and spherical (concave and convex) mirrors.  The formulas used for such problems can be divided into two groups. The {\bf first group} includes formulas interrelating the focal length $F$ of the lens (or mirror), the distance $d$ from the object to the lens (or mirror) and the distance $f$ from the image to the lens (or mirror):
+\begin{equation}
+\frac{1}{d}+\frac{1}{f} = \frac{1}{F} \label{lensmaker}
+\end{equation}
+in which $d$, $f$ and $F$ are treated as algebraic quantities whose signs may differ from one case to another. There are only three possible cases, which are listed in the following table.
+
+\begin{table}[htdp]
+\caption{default}
+\begin{center}
+\begin{tabular}{|c|}
+\hline
+\emph{ Converging lenses and concave mirrors}
+
+\end{tabular}
+\begin{tabular}{|c|c|}
+\hline
+$d > F$ & $d < F$\\
+\hline
+$d > 0$, $F > 0$ and $f > 0$ & $d>0$, $F>0$ and $f<0$\\
+\hline
+Real Image & Virtual Image\\
+\hline
+\end{tabular}
+\begin{tabular}{|c|}
+\emph{Diverging lenses and convex mirror}\\
+\hline
+$d > 0$, $F < 0$ and $f < 0$ \\
+\hline
+Virtual Image\\
+\hline
+\end{tabular}
+
+\end{center}
+\label{default}
+\end{table}
+
+Thus $d$ is always positive; the focal length $F$ is positive for converging lenses and concave mirrors and negative for diverging lenses and convex mirrors; and the distance $f$ is positive for real images and negative for virtual images.
+
+{\sc Student A:} As I understand, this table enables us to obtain three formulas from the general formula (\ref{lensmaker}) which contain the arithmetical values of the above mentioned quantities:
+
+\begin{align}
+Case \,1: \frac{1}{d}+\frac{1}{f} & = \frac{1}{F} \\
+Case \,2: \frac{1}{d}-\frac{1}{f} & = \frac{1}{F} \\
+Case \,3: \frac{1}{d}-\frac{1}{f} & = -\frac{1}{F}
+\end{align}
+ 
+ {\sc Teacher:} Yes. Exactly so.
+ 
+ {\sc Student A:} Somehow, I have never paid any attention to the analogy between lenses and the corresponding spherical mirrors.
+ 
+ {\sc Teacher:} The {\bf second group} include formulas which relate the focal length of the lens (or mirror) to its other characteristics. For mirrors we have the simple relationship
+ \begin{equation}
+F = \pm \frac{R}{2} \label{mirror2}
+\end{equation}
+
+where $R$ is the radius of curvature of mirror. The plus sign refers to concave mirrors (the focus is positive) and the minus sign refers to convex mirrors (the focus is negative). For lenses
+
+\begin{equation}
+\frac{1}{F} = (n-1) \left( \frac{1}{R_{1}} + \frac{1}{R_{2}} \right) \label{lens2}
+\end{equation}
+ where $n$ is the index of refraction of the lens material and $R_{1}$ and $R_{2}$ are the radii of curvature of lens. If the radius $R$ refers to a convex side of the lens it is taken with a plus sign; if it refers to a concave side, with a minus sign. You can readily see that double-convex, plano-convex and convexo-concave (converging meniscus) lenses are all converging because, according to formula (\ref{lens2}), they have a positive focus.
+ 
+ {\sc Student A:} What changes will have to be made in formula (\ref{lens2}) if the lens is placed in a medium with an index of refraction $n_{0}$?
+ 
+ {\sc Teacher:} Instead of formula (\ref{lens2}) we will have
+ 
+ \begin{equation}
+\frac{1}{F} = \left( \frac{n}{n_{0} - 1}\right) \left( \frac{1}{R_{1}} + \frac{1}{R_{2}} \right) \label{lens3}
+\end{equation}
+
+When we pass over from an optically less dense medium $(n_{0}<n)$ to an optically more dense one $(n_{0}>n)$, then, according to formula (\ref{lens3}), the sign of the focus is reversed and therefore a converging lens becomes a diverging one and, conversely, a diverging lens becomes a converging one. Let us proceed to the solution of specific problems. \emph{The convex side of a plano-convex lens with a radius of curvature $R$ and index of refraction $n$ is silver-plated to obtain a special type to concave mirror. Find the focal length of the mirror.}
+
+{\sc Student A:} Please allow me to do this problem. We begin by directing a ray parallel to the principal optical axis of the lens. After it is reflected from the silver-plated surface, the ray goes out of the lens and is thereby refracted. If the ray had not been refracted, it would have intersected the principal axis at a distance $\frac{R}{2}$ from the mirror accordance with the formula (\ref{mirror2}). As a result of refraction, the ray intersects the principal axis somewhat closer to mirror. We shall denote the required focal length by $F$. it is evident from Fig. \ref{fig140} that 
+\begin{figure}[htbp]
+\begin{center}
+%\includegraphics[scale=0.8]{fig140}
+\caption{}
+\label{fig140}
+\end{center}
+\end{figure}
+
+\begin{equation}
+\frac{R}{2} \tan \alpha_{1} = F \tan \alpha_{2}
+\end{equation}
+Owing to the smallness of the angles $\alpha_{1}$ and $\alpha_{2}$, we can apply the formula {??}. Then
+
+\begin{equation*}
+\frac{R}{2F} = \frac{\tan \alpha_{2}}{\tan \alpha_{1}} \approx \frac{\sin \alpha_{2}}{ \sin \alpha_{1}} = n
+\end{equation*}
+ from which
+\begin{equation}
+F = \frac{R}{2n} \label{ans33.1}
+\end{equation}
+{\sc Student B:} I suggest that this problem be solved in a different way. It is known that if we combine two systems with focal lengths $F_{1}$ and $F_{2}$, the new system will have a focal length $F$ which can be determined by the rule for adding the power of lenses , i.e. 
+\begin{equation}
+\frac{1}{F} = \frac{1}{F_{1}}+\frac{1}{F_{2}} \label{lenspower}
+\end{equation}
+In the given case we have a lens with a focal length 
+\begin{equation*}
+F_{1} = \frac{R}{ (n-1)}
+\end{equation*}
+according to equation (\ref{lens2}), where one of the radii is infinite, and a concave mirror for which 
+\begin{equation*}
+F_{2} = \frac{R}{2}
+\end{equation*}
+Substituting the expressions for $F_{1}$ and $F_{2}$ into formula (\ref{lenspower}) we obtain
+\begin{equation}
+\frac{1}{F} = \frac{n-1}{R} + \frac{2}{R} \label{ans33.2}
+\end{equation}
+from which 
+\begin{equation}
+F = \frac{R}{n+1}
+\end{equation}
+
+This shows that {\sc Student A} did not do the problem right [see his answer in equation (\ref{ans33.1})]
+
+{\sc Teacher: } (to {\sc Student B}) No, it is you who is wrong. The result (\ref{ans33.1}) is correct.
+
+{\sc Student B:} But is rule (\ref{lenspower}) incorrect in the given case?
+
+{\sc Teacher: } This rule is correct and applicable in the given case.
+
+{\sc Student B:} But if rule (\ref{lenspower}) is correct, then equation (\ref{ans33.2}) must also be correct.
+
+{\sc Teacher: } It is precisely here that you are mistaken. The fact is that the ray travels through the lens twice (there and back). Therefore, you must add the powers of the mirror and of \emph{two} lenses. Instead of equation (\ref{ans33.2}) you should have written
+\begin{equation*}
+\frac{1}{F} = \frac{2(n-1)}{R} + \frac{2}{R}
+\end{equation*}
+from which we find that 
+\begin{equation*}
+\frac{1}{F} = \frac{(2n-2+2)}{R} 
+\end{equation*}
+which leads to
+\begin{equation*}
+F = \frac{R}{2n}
+\end{equation*}
+which coincides with the result obtained in the equation (\ref{ans33.1}).
+
+Consider another problem. \emph{A converging lens magnifies the image of the object fourfold. If the object is moved 5 cm, the magnification is reduced by half. Find the focal length of the lens.}
+
+{\sc Student A:} I always get confused in doing such problems. I think you have to draw the path of the rays in the first position and then in the second, and compare the paths.
+
+{\sc Teacher:} I dare say it will not be necessary at all to draw paths of the rays in this case. According to the formula (\ref{lensmaker}), we can write for the given position that 
+\begin{equation*}
+\frac{1}{F} = \frac{1}{d_{1}} + \frac{1}{f_{1}}
+\end{equation*}
+ Since $f_{1}/d_{1} = k_{1}$ is the magnification in the first case, we obtain
+\begin{equation*}
+\frac{1}{F} = \frac{1}{d_{1}} + \frac{1}{k_{1}d_{1}} = \frac{k_{1}+1}{k_{1}d_{1}}
+\end{equation*}
+ or 
+\begin{equation*}
+d_{1} = F \, \frac{k_{1}+1}{k_{1}}
+\end{equation*}
+
+By analogy we can write for the second position that
+\begin{equation*}
+d_{2} = F \, \frac{k_{2}+1}{k_{2}}
+\end{equation*}
+Thus 
+\begin{equation}
+d_{2} - d_{1} = F \, \frac{k_{1}-k_{2}}{k_{1}k_{2}} \label{ans33.3}
+\end{equation}
+
+According to the conditions of the problem, $d_{2} - d_{1} = 5 \,cm$, $k_{1}=4$ and $k_{2} = 2$. Substituting these values into equation (\ref{ans33.3}), we find that $F = 20 \, cm$.
+
+\subsection*{PROBLEMS}
+\begin{description}
+\item{77} A lens with a focal length of 30 cm forms a virtual image reduced
+to 2/3 of the size of the object. What kind of a lens is it (converging or
+diverging)? What is the distance to the object? What will be the size of
+and distance to the image if the lens is moved 20 cm away from the object?
+
+
+\item{78} A luminous point is on the principal optical axis of a concave
+mirror with a radius of curvature equal to 50 cm. The point is 15 cm from ((1) the mirror. Where is the image of the point? What will happen to the image if the mirror i +t is moved another 15 cm away from the point?
+
+\item{79} An optical system consists of a diverging and a converging lens [Fig. 141a;
+. the X 's indicate the focuses (focal points) of the lenses]. The focal lengths of the lenses
+(b) equal 40 cm. The object is at a distance of 80 cm in front of the diverging lens. Coni
+struct the image of the object formed by the given system and compute its position.
+
+\item{80} An optical system consiosts of three identical converging lenses with focal
+lengths of 30 cm. The lenses are arranged Fig. 141 with respect to one another as shown in
+Fig. 141b (the X's are the focal points of the lenses). The object is at 8 distance of 60 cm from the nearest lens. Where is the image of the object formed by the given system?
+
+\item{81} The convex side of a plano-convex lens with a radius of curvature
+of 60 mm is silver-plated to obtain a concave mirror. An object is located
+at a distance of 25 cm in front of this mirror. Find the distance from the
+mirror to the image of the object and the magnification if the index of
+refraction of the lens material equals 1.5. .
+
+\item{82} The concave side of a plano-concave lens with a radius of curvature
+of 50 cm is silver-plated to obtain a convex mirror. An object is located
+at a distance of 10 cm in front of this mirror. Find the distance from the
+mirror to the image of the object and the magnification of the image if
+the index of refraction of the lens material equals 1.5.
+\end{description}
+
+\end{document}

@@ -1,0 +1,40 @@
+\contentsline {chapter}{Preface}{9}{section*.3}
+\contentsline {chapter}{Prelude: Can the System of Classical Physics Concepts Be Considered Logically Perfect?}{13}{section*.5}
+\contentsline {chapter}{\numberline {1}Physics of the Microparticles}{19}{chapter.1}
+\contentsline {section}{\numberline {1}Certain Characteristics and Properties of Microparticles}{21}{section.1.1}
+\contentsline {section}{\numberline {2}Two Fundamental Ideas of Quantum Mechanics}{26}{section.1.2}
+\contentsline {section}{\numberline {3}Uncertainty Relations}{33}{section.1.3}
+\contentsline {section}{\numberline {4}Some Results Ensuing from the Uncertainty Relations}{40}{section.1.4}
+\contentsline {section}{\numberline {5}Impossibility of Classical Representation of a Microparticle}{45}{section.1.5}
+\contentsline {section}{\numberline {6}Rejection of Ideas of Classical Physics}{50}{section.1.6}
+\contentsline {section}{Interlude: Is a ``Physically Intuitive'' Model of a Microparticle Possible?}{56}{figure.1.6.2}
+\contentsline {paragraph}{}{56}{paragraph*.6}
+\contentsline {chapter}{\numberline {2}Physical Foundations of Quantum Mechanics}{59}{chapter.2}
+\contentsline {section}{\numberline {7}Some Basic Experiments}{61}{section.2.7}
+\contentsline {section}{\numberline {8}Amplitudes of Transition Probabilities (Formulation of Basic Principles)}{69}{section.2.8}
+\contentsline {section}{\numberline {9}Amplitudes of Transition Probabilities (Demonstration of Basic Principles)}{73}{section.2.9}
+\contentsline {section}{\numberline {10}Superposition of States}{83}{section.2.10}
+\contentsline {section}{\numberline {11}Measurement in Quantum Mechanics}{91}{section.2.11}
+\contentsline {section}{Interlude: Are These the Same Waves?, Or, Again on Waves in Quantum Mechanics}{99}{equation.2.11.6}
+\contentsline {section}{\numberline {12}Causality in Quantum Mechanics}{101}{section.2.12}
+\contentsline {section}{\numberline {13}Microparticles with Two Basic States}{106}{section.2.13}
+\contentsline {section}{\numberline {14}The Electron in a Magnetic Field}{112}{section.2.14}
+\contentsline {section}{\numberline {15}The Wave Function}{119}{section.2.15}
+\contentsline {section}{\numberline {16}Quantum Mechanics as a Qualitative Leap in Man's Knowledge of the Laws of Nature}{122}{section.2.16}
+\contentsline {section}{A Brief Interlude}{128}{equation.2.16.6}
+\contentsline {section}{Interlude: Do Quantum-Mechanical Concepts Contradict Our Common Sense?}{133}{equation.2.16.6}
+\contentsline {chapter}{\numberline {3}Linear Operators in Quantum Mechanics}{137}{chapter.3}
+\contentsline {section}{\numberline {17}A Brief Look at the Theory of Linear Operators}{139}{section.3.17}
+\contentsline {section}{\numberline {18}From Hamiltonian Matrix to Energy Operator}{147}{section.3.18}
+\contentsline {section}{\numberline {19}Linear Operators in Quantum Mechanics}{152}{section.3.19}
+\contentsline {section}{\numberline {20}The Quantum-Mechanical Apparatus in Coordinate Representation}{157}{section.3.20}
+\contentsline {section}{\numberline {21}Applications of the Schr\"odinger Equation}{164}{section.3.21}
+\contentsline {section}{\numberline {22}The Hamiltonian in Some Specific Problems}{171}{section.3.22}
+\contentsline {section}{\numberline {23}Transition to the Momentum Representation}{175}{section.3.23}
+\contentsline {section}{\numberline {24}An Electron in a Periodic Field}{177}{section.3.24}
+\contentsline {section}{\numberline {25}The Probability of Quantum Transitions}{181}{section.3.25}
+\contentsline {section}{\numberline {26}Ways of Describing Evolution of Microsystems with Time}{184}{section.3.26}
+\contentsline {chapter}{A Brief Historical Survey}{189}{chapter*.7}
+\contentsline {chapter}{Appendix A}{197}{chapter*.8}
+\contentsline {chapter}{Bibliography}{209}{chapter*.9}
+\contentsfinish 

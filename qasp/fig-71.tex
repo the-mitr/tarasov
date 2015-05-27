@@ -1,0 +1,33 @@
+%!tikz editor 1.0
+\documentclass{article}
+\usepackage{tikz}
+\usepackage[graphics, active, tightpage]{preview}
+\PreviewEnvironment{tikzpicture}
+
+%!tikz preamble begin
+\usetikzlibrary{arrows} 
+
+%!tikz preamble end
+
+
+\begin{document}
+%!tikz source begin
+\begin{tikzpicture}[>=triangle 45,domain=0:1.5,scale=2.5]
+	%\draw[gray,step=0.2] (-5,-5) grid (5, 5);
+	\clip (-1,-1) rectangle (3, 2.1);
+
+	\draw[thick,red] plot (\x,\x*\x)	;
+	\draw[thick,cyan] plot (\x,\x*\x*\x);
+	\node[below right,red] at (1.35,1.9 ) {$\sim R^{2}$};
+	\node[below,cyan] at (1,1.9) {$\sim R^{3}$};
+		
+	\draw[thick, ->, gray] (0,0) -- (2,0);
+	\draw[thick, ->, gray] (0,0) -- (0,2);
+	\node [left] at (0,2) {$y$};
+	\node [below left] at (2.1,0) {$R$};
+	\node [left] at (0,0) {0};
+	
+\end{tikzpicture}
+%!tikz source end
+
+\end{document}

@@ -1,0 +1,81 @@
+\contentsline {chapter}{From The Editor Of The Russian Edition}{7}{chapter*.2}
+\contentsline {chapter}{Foreword}{9}{chapter*.3}
+\contentsline {chapter}{\numberline {1}Can You Analyse Graphs Representing The Kinematics Of Straight-Line Motion?}{11}{chapter.1}
+\contentsline {paragraph}{}{11}{paragraph*.4}
+\contentsline {chapter}{\numberline {2}Can You Show The Forces Applied To A Body?}{17}{chapter.2}
+\contentsline {paragraph}{}{17}{paragraph*.5}
+\contentsline {chapter}{\numberline {3}Can You Determine The Friction Force?}{25}{chapter.3}
+\contentsline {chapter}{\numberline {4}How Well Do You Know Newton's Laws Of Motion?}{29}{chapter.4}
+\contentsline {paragraph}{}{29}{paragraph*.6}
+\contentsline {chapter}{\numberline {5}How Do You Go About Solving Problems In Kinematics?}{37}{chapter.5}
+\contentsline {paragraph}{}{37}{paragraph*.7}
+\contentsline {section}{PROBLEMS}{42}{section*.8}
+\contentsline {chapter}{\numberline {6}How Do You Go About Solving Problems In Dynamics?}{45}{chapter.6}
+\contentsline {paragraph}{}{45}{paragraph*.9}
+\contentsline {section}{PROBLEMS}{48}{section*.10}
+\contentsline {chapter}{\numberline {7}Are Problems In Dynamics Much More Difficult To Solve If Friction Is Taken Into Account?}{49}{chapter.7}
+\contentsline {paragraph}{}{49}{paragraph*.11}
+\contentsline {section}{PROBLEMS}{53}{section*.12}
+\contentsline {chapter}{\numberline {8}How Do You Deal With Motion In A Circle?}{57}{chapter.8}
+\contentsline {section}{PROBLEMS}{65}{section*.13}
+\contentsline {chapter}{\numberline {9}How Do You Explain The Weightlessness Of Bodies?}{67}{chapter.9}
+\contentsline {paragraph}{}{67}{paragraph*.14}
+\contentsline {section}{PROBLEM}{70}{section*.15}
+\contentsline {chapter}{\numberline {10}Can You Apply The Laws Of Conservation Of Energy And Linear Momentum?}{73}{chapter.10}
+\contentsline {paragraph}{}{73}{paragraph*.16}
+\contentsline {section}{PROBLEMS}{84}{section*.17}
+\contentsline {chapter}{\numberline {11}Can You Deal With Harmonic Vibrations?}{89}{chapter.11}
+\contentsline {section}{PROBLEMS}{93}{section*.18}
+\contentsline {chapter}{\numberline {12}What Happens To A Pendulum In A State Of Weightlessness?}{95}{chapter.12}
+\contentsline {paragraph}{}{95}{paragraph*.19}
+\contentsline {chapter}{\numberline {13}Can You Use The Force Resolution Method Efficiently?}{101}{chapter.13}
+\contentsline {section}{PROBLEMS}{103}{section*.20}
+\contentsline {chapter}{\numberline {14}What Do You Know About The Equilibrium Of Bodies?}{105}{chapter.14}
+\contentsline {paragraph}{}{105}{paragraph*.21}
+\contentsline {chapter}{\numberline {15}How Do You Locate The Centre Of Gravity? }{109}{chapter.15}
+\contentsline {paragraph}{}{109}{paragraph*.22}
+\contentsline {subsection}{PROBLEM}{112}{subsection*.23}
+\contentsline {chapter}{\numberline {16}Do you know Archimedes' principle?}{115}{chapter.16}
+\contentsline {paragraph}{}{115}{paragraph*.24}
+\contentsline {subsection}{PROBLEM}{119}{subsection*.25}
+\contentsline {chapter}{\numberline {17}Is Archimedes' Principle Valid In A Spaceship?}{121}{chapter.17}
+\contentsline {paragraph}{}{121}{paragraph*.26}
+\contentsline {chapter}{\numberline {18}What Do You Know About The Molecular-Kinetic Theory Of Matter?}{127}{chapter.18}
+\contentsline {paragraph}{}{127}{paragraph*.27}
+\contentsline {chapter}{\numberline {19}How Do You Account For The Peculiarity In The Thermal Expansion Of Water?}{137}{chapter.19}
+\contentsline {paragraph}{}{137}{paragraph*.28}
+\contentsline {chapter}{\numberline {20}How Well Do You Know The Gas Laws?}{139}{chapter.20}
+\contentsline {paragraph}{}{139}{paragraph*.29}
+\contentsline {chapter}{\numberline {21}How Do You Go About Solving Problems On Gas Laws?}{147}{chapter.21}
+\contentsline {paragraph}{}{147}{paragraph*.30}
+\contentsline {section}{PROBLEMS}{152}{section*.31}
+\contentsline {chapter}{\numberline {22}Let Us Discuss Field Theory}{157}{chapter.22}
+\contentsline {paragraph}{}{157}{paragraph*.32}
+\contentsline {chapter}{\numberline {23}How Is An Electrostatic Field Described?}{161}{chapter.23}
+\contentsline {paragraph}{}{161}{paragraph*.33}
+\contentsline {chapter}{\numberline {24}How Do Lines Of Force Behave Near The Surface Of A Conductor?}{167}{chapter.24}
+\contentsline {paragraph}{}{167}{paragraph*.34}
+\contentsline {chapter}{\numberline {25}How Do You Deal With Motion In A Uniform Electrostatic Field?}{171}{chapter.25}
+\contentsline {paragraph}{}{171}{paragraph*.35}
+\contentsline {section}{PROBLEMS}{177}{section*.36}
+\contentsline {chapter}{\numberline {26}Can You Apply Coulomb's Law?}{179}{chapter.26}
+\contentsline {section}{PROBLEMS}{183}{section*.37}
+\contentsline {chapter}{\numberline {27}Do You Know Ohm's Law?}{187}{chapter.27}
+\contentsline {paragraph}{}{187}{paragraph*.38}
+\contentsline {section}{PROBLEMS}{191}{section*.39}
+\contentsline {chapter}{\numberline {28}Can A Capacitor Be Connected Into A Direct-Current Circuit?}{193}{chapter.28}
+\contentsline {chapter}{\numberline {29}Can you compute the resistance of a branched portion of a circuit?}{197}{chapter.29}
+\contentsline {paragraph}{}{197}{paragraph*.40}
+\contentsline {section}{PROBLEMS}{199}{section*.41}
+\contentsline {chapter}{\numberline {30}Why Did The Electric Bulb Burn Out?}{201}{chapter.30}
+\contentsline {paragraph}{}{201}{paragraph*.42}
+\contentsline {section}{PROBLEMS}{204}{section*.43}
+\contentsline {chapter}{\numberline {31}Do You Know How Light Beams Are Reflected And Refracted?}{209}{chapter.31}
+\contentsline {paragraph}{}{209}{paragraph*.44}
+\contentsline {section}{PROBLEMS}{212}{section*.45}
+\contentsline {chapter}{\numberline {32}How Do You Construct Images Formed By Mirrors And Lenses?}{213}{chapter.32}
+\contentsline {paragraph}{}{213}{paragraph*.46}
+\contentsline {chapter}{\numberline {33}How Well Do You Solve Problems Involving Mirrors And Lenses?}{219}{chapter.33}
+\contentsline {section}{PROBLEMS}{222}{section*.47}
+\contentsline {chapter}{Answers}{225}{section*.49}
+\contentsfinish 

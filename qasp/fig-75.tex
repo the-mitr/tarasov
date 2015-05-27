@@ -1,0 +1,52 @@
+%!tikz editor 1.0
+\documentclass{article}
+\usepackage{tikz}
+\usepackage[graphics, active, tightpage]{preview}
+\PreviewEnvironment{tikzpicture}
+
+%!tikz preamble begin
+\usetikzlibrary{arrows} 
+
+%!tikz preamble end
+
+
+\begin{document}
+%!tikz source begin
+\begin{tikzpicture}[>=triangle 45,scale=3]
+	
+	\clip (-.2,-0.21) rectangle (2.1, 2.1);
+%	\draw[gray,step=0.2] (-3,-1) grid (5, 3);
+		
+	%\draw[thick,red] plot (\x,\x*\x)	;
+	%\draw[thick,cyan] plot (\x,\x*\x*\x);
+	
+	%\node[below right,cyan] at (.5,1.8 ) 
+	%{\emph{Isochore}};
+	
+	%\node[below right,violet,rotate=90] at (1.5,.3 ) 
+	%{\emph{Isotherm}};
+		
+	\draw[thick, <->, gray] (2,0) -- (0,0) -- (0,2);
+	\draw[thick, red, dashed] (0,0.7) -- (.8,0.7);
+
+	\node [left,gray] at (0,2) {$p$};
+	\node [below left, gray] at (2.1,0) {$V$};
+	\node [below left,gray] at (0,0) {0};
+	\node [below right,gray] at (.02,.9) {$T_{1}$};
+	\node [below right,gray] at (.5,.9) {$T_{2}$};
+	
+	
+	%
+	\draw[ultra thick, violet] (.08,1.8) .. controls (.05,.01) and (.8,.05) .. (1.85,.05);
+	
+	\draw[ultra thick, violet] (.15,1.8) .. controls (.14,.45) and (.8,.18) .. (1.85,.15);
+	
+	\draw[->,semithick,gray] (0.22,.7) -- (0.22,0);
+	\draw [fill,gray](0.22,.7) circle (0.8pt);
+	\draw[->,semithick,gray] (0.41,.7) -- (0.41,0);
+	\draw [fill,gray](0.41,.7) circle (0.8pt);
+
+\end{tikzpicture}
+%!tikz source end
+
+\end{document}

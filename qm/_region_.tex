@@ -1,0 +1,93 @@
+\message{ !name(tarasov-qm.tex)}% Created 2014-02-03 Mon 15:53
+\documentclass[a4paper,sfsidenotes,colorlinks=true]{tufte-book}
+\usepackage[libertine]{newtxmath}
+% Font related packages
+\usepackage[T1]{fontenc}
+%\usepackage[urw-garamond]{mathdesign}
+%\usepackage{garamondx}
+\usepackage{libertine}
+\usepackage[sf]{quattrocento}
+\renewcommand\allcapsspacing[1]{{\addfontfeature{LetterSpace=15}#1}}
+\renewcommand\smallcapsspacing[1]{{\addfontfeature{LetterSpace=10}#1}}
+\usepackage{fancyvrb}
+\usepackage{nicefrac}
+\usepackage{mdframed}
+%\setmarginnotefont{\textsf{\color{OrangeRed}{}}}
+% \usepackage{inconsolata}
+% \makeatletter
+% \newcommand{\verbatimfontfamily}[1]{%
+%   \def\verbatim@font{\fontfamily{#1}\selectfont}%
+% }%
+% \makeatother
+% \DeclareTextCommand{\nobreakspace}{T1}{\leavevmode\nobreak\
+% %\usepackage{inconsolata}
+%\usepackage{comfortaa}
+%\renewcommand*\ttdefault{inconsolata}
+\usepackage{microtype}% Set small size fonts
+\usepackage{aurical}
+%\usepackage{mathdesign}
+\usepackage{soul}
+\usepackage{siunitx}
+\sisetup{text-celsius = \degree\kern-\scriptspace C}
+%\usepackage{unicode-math}
+%\setmathfont{TG Pagella Math}
+% \setmathfont{TeX Gyre Pagella Math}
+%\setmathfont{texgyrepagellamath-regular.otf}
+% PDF related packages
+\usepackage{amsmath}
+\numberwithin{equation}{section}
+\numberwithin{figure}{section}
+%\usepackage{gensymb}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{textcomp}
+\usepackage{enumitem}
+%\usepackage{quotchap}
+\setcounter{secnumdepth}{2}
+\usepackage{titlesec}
+
+\usepackage{chngcntr}
+\counterwithout{section}{chapter}
+%\counterwithout{equation}{chapter}
+\setlength{\parskip}{1.5\baselineskip}
+
+\titleformat{\chapter}
+  {\normalfont\sffamily\Huge\color{darkgray}}
+  {\thechapter}{1em}{}
+\titleformat{\section}
+  {\normalfont\sffamily\Large\color{darkgray}}
+  {\thesection}{1em}{}
+\renewcommand{\thesection}{\arabic{section}}
+
+%\usepackage{tikz}
+%\usetikzlibrary{arrows}
+\usepackage{xltxtra}                % some general improvements, defines the XeTeX logo
+\usepackage{calrsfs}
+
+\DeclareMathAlphabet{\pazocal}{OMS}{zplm}{m}{n}
+\newcommand{\Ea}{\mathcal{E}}
+
+\usepackage{braket}
+\usepackage{color}
+%\usepackage{minitoc}
+\title{Basic Concepts of \\ Quantum Mechanics}
+\author{L. Tarasov}
+
+\date{}
+\hypersetup{
+  pdfkeywords={quantum physics, mechanics, elementary particles},
+  pdfsubject={physics}, linkcolor=CornflowerBlue}
+
+\begin{document}
+
+\message{ !name(tarasov-qm.tex) !offset(5984) }
+Generalization of the Problem of an Electron in
+a Magnetic Field to an Arbitrary Two-Level System} 
+\message{ !name(tarasov-qm.tex) !offset(8409) }
+
+\end{document}
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-engine: xetex
+%%% End: 

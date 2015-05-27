@@ -1,0 +1,43 @@
+%!tikz editor 1.0
+\documentclass{article}
+\usepackage{tikz}
+\usepackage[graphics, active, tightpage]{preview}
+\PreviewEnvironment{tikzpicture}
+
+%!tikz preamble begin
+\usetikzlibrary{arrows} 
+% LATEX and plain TEX when using TikZ
+%\usetikzlibrary{arrows.meta}
+%!tikz preamble end
+
+
+\begin{document}
+%!tikz source begin
+\begin{tikzpicture}[important line/.style={thick}, >=triangle 60]
+%\draw[step=.2cm,color=lightgray] (0,0) grid (5,2);
+\tikzset{dashdot/.style={dash pattern=on .4pt off 3pt on 4pt off 3pt}}
+%\draw[line width=1,<->] (0,5) -- (5, 5);
+
+
+\draw[line width=1] (0,4) -- (0, 0);
+\draw[line width=1] (0,3) -- (3, 3);
+\draw[line width=1] (0,1.8) -- (3, 3);
+\draw[line width=1,dashdotted] (3,3.3) -- (3, -1.1);
+\draw[line width=1] (3,3) -- (2, -0.5);
+\draw[line width=1,dashed] (2,-0.5) arc (-120: -60 :2);
+\draw[line width=1,dashed] (3,3) -- (4, -.5);
+\draw[fill=black] (2, -0.5) circle (0.18cm);
+\draw[line width=1, fill=white] (4, -0.5) circle (0.18cm);
+\node [above right] at (0,3) {$A$};
+\node [above right] at (3,3) {$B$};
+\node [below right] at (0,1.9) {$C$};
+\node [below right] at (1.2,0) {$m$};
+\node [below right] at (2,1.3) {$l$};
+\draw[line width=0.6] (2.3,3) arc (-180: -160 :0.8);
+\node [right] at (1.8,2.83) {$\alpha$};
+
+
+\end{tikzpicture}
+%!tikz source end
+
+\end{document}

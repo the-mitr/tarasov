@@ -1,0 +1,5 @@
+mktexpk --mfmode / --bdpi 600 --mag 1+0/600 --dpi 600 ugmri8a.pfb
+mktexpk --mfmode / --bdpi 600 --mag 1+0/600 --dpi 600 ugmri8a.pfb
+mktexpk --mfmode / --bdpi 600 --mag 1+0/600 --dpi 600 rfxlri-alt
+mktexpk --mfmode / --bdpi 600 --mag 1+0/600 --dpi 600 zxxrl7z
+mktexpk --mfmode / --bdpi 600 --mag 1+0/600 --dpi 600 zxxrl7z

@@ -1,0 +1,34 @@
+%!tikz editor 1.0
+\documentclass{article}
+\usepackage{tikz}
+\usepackage[graphics, active, tightpage]{preview}
+\PreviewEnvironment{tikzpicture}
+
+%!tikz preamble begin
+\usetikzlibrary{arrows} 
+
+%!tikz preamble end
+
+
+\begin{document}
+%!tikz source begin
+\begin{tikzpicture}[>=triangle 45]
+	\clip (-1,-1.6) rectangle (5, 4.8);
+	\draw[thick, ->,gray] (0,0) -- (5,0);
+	\draw[thick, ->,gray] (0,-1.8) -- (0,4.5);
+	\draw[thick, dashed,gray] (0,-1) -- (4,-1);
+	\node [left] at (0,4.5) {$E_{p}$};
+	\node [left] at (0,-1) {$e_{1}$};
+	\node [below left] at (4.8,0) {$r$};
+	\node [left] at (0,0) {0};
+	\draw[ultra thick,red] (0.1,3.4) .. controls (.38,-4.8) and (2.,0.).. (4.4, -0.1);
+	\draw[<-] (.7,0) -- (.7,-1);
+	\node [above] at (0.7,0) {$A$};
+	\draw[<-] (2.3,0) -- (2.3,-1);
+	\node [above] at (2.3,0) {$B$};
+%	\draw[gray,step=0.25] (-0.6,-3) grid (5, 5.3);
+
+\end{tikzpicture}
+%!tikz source end
+
+\end{document}

@@ -1,0 +1,37 @@
+(TeX-add-style-hook "_region_"
+ (lambda ()
+    (TeX-add-symbols
+     "Ea")
+    (TeX-run-style-hooks
+     "color"
+     "braket"
+     "calrsfs"
+     "xltxtra"
+     "chngcntr"
+     "titlesec"
+     "enumitem"
+     "textcomp"
+     "float"
+     "graphicx"
+     "amsmath"
+     "siunitx"
+     "soul"
+     "aurical"
+     "microtype"
+     "mdframed"
+     "nicefrac"
+     "fancyvrb"
+     "quattrocento"
+     "sf"
+     ""
+     "fontenc"
+     "T1"
+     "newtxmath"
+     "libertine"
+     "latex2e"
+     "tufte-book10"
+     "tufte-book"
+     "colorlinks=true"
+     "sfsidenotes"
+     "a4paper")))
+

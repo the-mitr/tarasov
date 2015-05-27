@@ -1,0 +1,38 @@
+%% This BibTeX bibliography file was created using BibDesk.
+%% http://bibdesk.sourceforge.net/
+
+
+%% Created for Damitr at 2015-02-07 16:09:16 +0530 
+
+
+%% Saved with string encoding Unicode (UTF-8) 
+
+
+
+@misc{feynman1965lectures,
+	Author = {Feynman, Richard P and Leighton, Robert B and Sands, Matthew},
+	Date-Added = {2015-02-07 16:08:52 +0530},
+	Date-Modified = {2015-02-07 16:08:52 +0530},
+	Publisher = {Addison-Wesley Reading, Mass.},
+	Title = {Lectures on Physics, vol. III},
+	Year = {1965}}
+
+@article{lamb-1969,
+	Author = {Lamb Jr., Willis E.},
+	Date-Added = {2015-02-07 14:04:21 +0530},
+	Date-Modified = {2015-02-07 14:05:56 +0530},
+	Journal = {Physics Today},
+	Pages = {23-28},
+	Title = {An Operational Interpretation of Nonrelativistic Quantum Mechanics},
+	Volume = {22},
+	Year = {1969}}
+
+@article{fock-1957,
+	Author = {Fock, V. A.},
+	Date-Added = {2015-02-07 12:54:39 +0530},
+	Date-Modified = {2015-02-07 12:56:52 +0530},
+	Journal = {Czechoslovak Journal of Physics},
+	Pages = {643-656},
+	Title = {On the Interpretation of Quantum Mechanics},
+	Volume = {7},
+	Year = {1957}}
