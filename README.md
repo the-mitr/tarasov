@@ -1,4 +1,4 @@
-# tarasov
+# tarasov # mir books
 A repo for books by L. V. Tarasov
 This repo will have scanned pdf files and latex source files and supporting image files for compiling books by L. V. Tarasov.
 
